@@ -5,11 +5,6 @@ import re
 import spacy
 import os
 
-# --- spaCy setup ---
-# Перед запуском этого скрипта, убедитесь, что вы установили spaCy и русскую модель:
-# pip install spacy
-# python -m spacy download ru_core_news_sm
-
 try:
     nlp = spacy.load("ru_core_news_sm")
 except OSError:
